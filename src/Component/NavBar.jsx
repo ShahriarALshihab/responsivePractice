@@ -26,7 +26,7 @@ const NavBar = () => {
         )}
       </div>
 
-      <h3 className="text-3xl font-bold">Logo</h3>
+      <h3 className="text-3xl font-bold">MultiGym</h3>
       </div>
       {open ? (
         <ul className="md:hidden absolute top-[80px] rounded-xl   bg-slate-200   text-black font-semibold ">

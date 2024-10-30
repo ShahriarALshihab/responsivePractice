@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import "./App.css";
 import NavBar from "./Component/NavBar";
+import Banner from "./Banner";
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <h1 className="text-5xl font-bold">Vite + React</h1>
+      <Banner></Banner>
     </>
   );
 }
