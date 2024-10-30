@@ -26,7 +26,7 @@ const NavBar = () => {
         )}
       </div>
 
-      <h3 className="text-3xl font-bold">MultiGym</h3>
+      <h3 className="text-2xl lg:text-3xl font-bold">MultiGym</h3>
       </div>
       {open ? (
         <ul className="md:hidden absolute top-[80px] rounded-xl   bg-slate-200   text-black font-semibold ">
@@ -44,7 +44,7 @@ const NavBar = () => {
       </ul>
       <div className="flex items-center gap-1 text-xl">
       <input
-  className={`${search ? 'flex' : 'hidden'} text-black px-2 py-1 md:flex rounded-xl bg-gray-300`}
+  className={`${search ? 'flex' : 'hidden'} text-black px-2 py-1 md:flex rounded-xl mx-auto w-2/3 bg-gray-300`}
   type="text"
 />
 

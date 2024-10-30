@@ -4,6 +4,7 @@ import { useState } from "react";
 import "./App.css";
 import NavBar from "./Component/NavBar";
 import Banner from "./Banner";
+import PricingOptons from "./Component/PricingOptons";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <Banner></Banner>
+      <PricingOptons></PricingOptons>
     </>
   );
 }

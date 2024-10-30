@@ -5,7 +5,7 @@ const Link = ({ route }) => {
     return (
         <div>
             
-            <li className="mr-10 px-3 py-2"> 
+            <li className=" mr-4 lg:mr-10 px-1 lg:px-2 py-2"> 
                 <a href={route.path}>{route.name}</a>
             </li>
         </div>
