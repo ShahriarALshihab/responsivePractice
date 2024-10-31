@@ -5,6 +5,7 @@ import "./App.css";
 import NavBar from "./Component/NavBar";
 import Banner from "./Banner";
 import PricingOptons from "./Component/PricingOptons";
+import Footer from "./Footer";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <NavBar></NavBar>
       <Banner></Banner>
       <PricingOptons></PricingOptons>
+      <Footer></Footer>
     </>
   );
 }
